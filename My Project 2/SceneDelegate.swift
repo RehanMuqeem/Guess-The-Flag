@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  My Project 2
+//  Guess The Flag
 //
 //  Created by Rehan Muqeem on 12/12/20.
 //

@@ -18,6 +18,9 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHh-kV-0T3">
                                 <rect key="frame" x="107" y="100" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="cHh-kV-0T3" secondAttribute="height" multiplier="2:1" id="91T-ca-S75"/>
+                                </constraints>
                                 <state key="normal" image="us"/>
                                 <connections>
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NC2-Q9-ohu"/>
@@ -25,6 +28,9 @@
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gaK-zX-uw8">
                                 <rect key="frame" x="107" y="230" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="gaK-zX-uw8" secondAttribute="height" multiplier="2:1" id="xmE-Sr-ZMV"/>
+                                </constraints>
                                 <state key="normal" image="us"/>
                                 <connections>
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rOH-4f-5OO"/>
@@ -32,6 +38,9 @@
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HWP-7e-ux4">
                                 <rect key="frame" x="107" y="360" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="HWP-7e-ux4" secondAttribute="height" multiplier="2:1" id="KJz-Tq-PMS"/>
+                                </constraints>
                                 <state key="normal" image="us"/>
                                 <connections>
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4b6-Yo-NL6"/>
@@ -43,9 +52,12 @@
                         <constraints>
                             <constraint firstItem="HWP-7e-ux4" firstAttribute="centerX" secondItem="gaK-zX-uw8" secondAttribute="centerX" id="1nh-YE-QHy"/>
                             <constraint firstItem="cHh-kV-0T3" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="9lE-Mc-eV6"/>
+                            <constraint firstItem="HWP-7e-ux4" firstAttribute="height" secondItem="gaK-zX-uw8" secondAttribute="height" id="BBa-Gd-4Zk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="HWP-7e-ux4" secondAttribute="bottom" constant="20" id="CXi-ES-Fba"/>
                             <constraint firstItem="cHh-kV-0T3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="Koo-g3-Fz0"/>
                             <constraint firstItem="gaK-zX-uw8" firstAttribute="centerX" secondItem="cHh-kV-0T3" secondAttribute="centerX" id="eHz-Bn-jl7"/>
                             <constraint firstItem="gaK-zX-uw8" firstAttribute="top" secondItem="cHh-kV-0T3" secondAttribute="bottom" constant="30" id="qry-ay-mdH"/>
+                            <constraint firstItem="gaK-zX-uw8" firstAttribute="height" secondItem="cHh-kV-0T3" secondAttribute="height" id="shR-ML-hPU"/>
                             <constraint firstItem="HWP-7e-ux4" firstAttribute="top" secondItem="gaK-zX-uw8" secondAttribute="bottom" constant="30" id="v3F-vB-e0f"/>
                         </constraints>
                     </view>
